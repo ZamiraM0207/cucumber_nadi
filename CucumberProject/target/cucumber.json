@@ -1,0 +1,292 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2920671525,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to LogIn Page",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_navigates_to_LogIn_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 24147843030,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify log in functionality with valid credencials",
+        "description": "",
+        "id": "verify-login-functionality;verify-log-in-functionality-with-valid-credencials",
+        "after": [
+          {
+            "result": {
+              "duration": 5559714236,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3520252830,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User log in with valid email and password",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_log_in_with_valid_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205555554,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigated to the homepage and verify welcome text",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_navigated_to_the_homepage_and_verify_welcome_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2258026409,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click log out",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_click_log_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126940322,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should see successfully logout message displayed on",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_should_see_successfully_logout_message_displayed_on()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag200"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2086270287,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to LogIn Page",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_navigates_to_LogIn_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20286641629,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify log in functionality with invalid credencials",
+        "description": "",
+        "id": "verify-login-functionality;verify-log-in-functionality-with-invalid-credencials",
+        "after": [
+          {
+            "result": {
+              "duration": 5732916761,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2464175191,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User log in with invalid email and invalid password",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_log_in_with_invalid_email_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39391075,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see invalid logIn. displayed on",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_should_see_invalid_log_displayed_on()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag200"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2619988554,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to LogIn Page",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_navigates_to_LogIn_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19203137048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify log in functionality without any credencials",
+        "description": "",
+        "id": "verify-login-functionality;verify-log-in-functionality-without-any-credencials",
+        "after": [
+          {
+            "result": {
+              "duration": 5579550383,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2179893821,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on login button",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280787979,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should see Your Username and Password are required. displayed on",
+            "match": {
+              "location": "CCB_200_LogInFunctionality.user_should_see_Your_Username_and_Password_are_required_displayed_on()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag200"
+          }
+        ]
+      }
+    ],
+    "name": "Verify LogIn Functionality",
+    "description": "",
+    "id": "verify-login-functionality",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/features/CCB_200_LogInFunctionality.feature",
+    "tags": [
+      {
+        "name": "@tag200",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
